@@ -249,7 +249,7 @@ roi_names <- c("Total", "Tumour", "Stroma", "Lymphoid Aggregates", "White Space"
 ROI_per_10k <- data.frame(ROI = roi_names, Total_CD4_per10k = Tidy_ROI$Total_CD4/quotient, Total_CD4_No_RORgT_per10k = Tidy_ROI$Total_CD4_No_RORgT/quotient,
                           CD3_per10k = Tidy_ROI$CD3/quotient, CD4_per10k = Tidy_ROI$CD4/quotient, CD3CD4_per10k = Tidy_ROI$CD3CD4/quotient,
                           Total_Tcells_per10k = Tidy_ROI$Total_Tcells/quotient, Total_Tcells_No_RORgT_per10k = Tidy_ROI$Total_Tcells_No_RORgT/quotient,
-                          Th17_per10k = Tidy_ROI$Th17/quotient, RORgT_per10k = Tidy_ROI$RORgT/quotient, Total_RORgT_per10k = Tidy_ROI$RORgT/quotient,
+                          Th17_per10k = Tidy_ROI$Th17/quotient, RORgT_per10k = Tidy_ROI$RORgT/quotient, Total_RORgT_per10k = Tidy_ROI$Total_RORgT/quotient,
                           CD20_per10k = Tidy_ROI$CD20/quotient, Macrophage_per10k = Tidy_ROI$Macrophage/quotient, CA9_per10k = Tidy_ROI$CA9/quotient,
                           Other_per10k = Tidy_ROI$Other/quotient)
                           
