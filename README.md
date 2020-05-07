@@ -8,4 +8,4 @@ In this directory you can find the Tidy Scripts which take the raw data from InF
 
 # Total Data Collation Dir
 This directory is the step after using the Tidy Scripts. This collates all the data together into a useful file. e.g. the stromatumour_only data are all collated together for all the different sections of different mutations.
-
+   - The example script for these is the CD4_Collation_Script.R which collates all the CD4 results from the total_tumour. These scripts were      adopted to fit purpose in the analysis.
