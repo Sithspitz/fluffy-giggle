@@ -12,3 +12,4 @@ This directory is the step after using the Tidy Scripts. This collates all the d
 
 # Data Analysis Dir
 This directory does a generic overview statistical comparison of key questions. This file outputs p vals in a CSV. Can then go back and assess interesting comparisons and plot individually.
+   - The example script here is CD4_Collation_Analysis_Script.R
